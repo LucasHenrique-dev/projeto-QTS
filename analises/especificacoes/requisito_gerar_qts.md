@@ -19,4 +19,4 @@ Usuário visualiza quadro de trabalho semanal e a opção de "Imprimir" é habil
   * FE1.2 - Sistema desabilita o clique no botão "Gerar Novo Quadro";
   * FE1.3 - Sistema exibe uma notificação "Cadastre todos os dados referentes às aulas, vá até a sessão de cadastro";
 ## Nota Auxiliar:
-"O bom funcionamento do sistema" se refere aos dados mínimos para que um QTS possa ser gerado e, para isso, é necessário se certificar de que as informações de aulas, instrutores, materiais e requisitos foram corretamente preenchidas.
+"O bom funcionamento do sistema" se refere aos dados mínimos para que um QTS possa ser gerado e, para isso, é necessário se certificar de que as informações de aulas, instrutores, materiais, salas e critérios de prioridade foram corretamente preenchidas.
