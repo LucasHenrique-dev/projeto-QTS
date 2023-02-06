@@ -3,10 +3,9 @@
 [Tecnologias usadas]
 
 ## ℹ Tabela de Conteúdos
-- [Descrição do Projeto](dart-projeto-da-cadeira-de-inteligência-artificial-20222)
-- [Especificações](-especificações-do-projeto)
+- [Descrição do Projeto](#dart-projeto-da-cadeira-de-inteligência-artificial-20222)
+- [Especificações](#-especificações-do-projeto)
 - [Quadro Lean-Canvas](lean-canvas)
-- 
 
 ## :dart: Projeto da Cadeira de Inteligência Artificial 2022.2
 
