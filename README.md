@@ -24,6 +24,7 @@ Especificações incluem:
 - Casos de Uso
 - Diagrama de Sequência
 - Diagrama de Classe
+
 Visualize as especificações do projeto: [Especificações Gerador de QTS](analises/especificacoes/requisitos.md)
 
 ## 📝 Licença
