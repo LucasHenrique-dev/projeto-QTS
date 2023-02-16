@@ -1,0 +1,27 @@
+Visão do professor e aluno
+divisão em equipes: 12 equipes com instrutores variáveis
+aulas simultâneas e é preciso reduzir o tempo de ociosidade (algumas vezes é necessário aumentar o espaço)
+Disciplina possui x aulas e algumas delas tem condições especiais (precisam de ser a noite, tarde..)
+imprevistos podem acontecer e é necessário refazer o QTS.
+Professores tem "prazo": dar aula de dia tanto até tanto
+O ideal:
+é fazer um QTS para o curso todo (varia)
+são vários cursos simultâneos
+Sistema em Laravel: é basicamente o banco de dados
+requisitos essenciais:
+diminuir a ociosidade do professor
+diminuir a permanência do instrutor na PRF
+Visões do sistema:
+visão do aluno (ver o quador de aulas)
+visão do instrutor (ver quais aulas precisar dar)
+Plano de ensino:
+mostra as informações de cada disciplina
+existe uma tabela contendo informações do plano de aulas
+- visão do aluno é mais emergente
+turmas simultâneas:
+um grupo de professores pode se dividir e dar aulas smultâneas
+professores são responsáveis por turmas
+algumas aulas precisam de mais de um professor (na mesma sala)
+equipes de professores: dão aulas para turmas específicas
+tabela relacionando equipes e turmas
+plano de atividades é para a turma
