@@ -20,7 +20,7 @@
   - Vários cursos simultâneos; Curso possui disciplinas e cada disciplina possui aulas.
   - Vários Campus disponíveis;
   - Campus possuem vários locais;
-  - Aulas EAD podem ser cogitadas; EAD são aulas assíncronas e podem servir como pré-requisito.
+  - Aulas EAD podem ser cogitadas; EAD são aulas assíncronas, possuem data limite e podem servir como pré-requisito.
   - Recursos limitados;
   - Certas aulas necessitam de intervalos (não podem ter aulas após);
   - Imprevistos ocorrem é torna-se necessário elaborar novos QTS durnate o curso;
