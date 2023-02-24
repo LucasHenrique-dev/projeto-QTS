@@ -4,7 +4,7 @@
   - Quantitativo de professores para a aula;
   - Recursos materiais necessários para ministrar a aula;
   - Horas de aula: não é um valor fixo;
-  - Observações e Pré-requisitos: onde será, perído (manhã, tarde, noite e madrugada), entrada (**aulas conjugadas), apoio (equipe de suporte), observações;
+  - Observações e Pré-requisitos: onde será, perído (manhã, tarde, noite e madrugada), entrada (aulas conjugadas: aulas contínuas), apoio (equipe de suporte), observações;
 </br>
 
 - Corpo Docente:
@@ -17,10 +17,10 @@
 </br>
 
 - Informações Gerais:
-  - Vários **cursos simultâneos;
+  - Vários cursos simultâneos; Curso possui disciplinas e cada disciplina possui aulas.
   - Vários Campus disponíveis;
   - Campus possuem vários locais;
-  - Aulas **EAD podem ser cogitadas;
+  - Aulas EAD podem ser cogitadas; EAD são aulas assíncronas e podem servir como pré-requisito.
   - Recursos limitados;
   - Certas aulas necessitam de intervalos (não podem ter aulas após);
   - Imprevistos ocorrem é torna-se necessário elaborar novos QTS durnate o curso;
