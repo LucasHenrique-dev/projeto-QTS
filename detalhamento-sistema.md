@@ -17,10 +17,11 @@
 </br>
 
 - Informações Gerais:
-  - Vários cursos simultâneos; Curso possui disciplinas e cada disciplina possui aulas.
+  - Vários cursos simultâneos;
+  - Cada curso possui suas disciplinas e cada disciplina possui aulas, descritas no Plano de Aulas;
   - Vários Campus disponíveis;
   - Campus possuem vários locais;
-  - Aulas EAD podem ser cogitadas; EAD são aulas assíncronas, possuem data limite e podem servir como pré-requisito.
+  - Aulas EAD são assíncronas, possuem data limite para serem assistidas e podem servir como pré-requisito para outras aulas;
   - Recursos limitados;
   - Certas aulas necessitam de intervalos (não podem ter aulas após);
   - Imprevistos ocorrem é torna-se necessário elaborar novos QTS durnate o curso;
