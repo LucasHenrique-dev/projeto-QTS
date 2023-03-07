@@ -1,0 +1,48 @@
+{
+  "campus": [
+    {
+      "idCampus": "C3",
+      "desc": "CENTRO DE EVENTOS"
+    },
+    {
+      "idCampus":"C1",
+      "desc": "UNIPRF"
+    },
+    {
+      "idCampus": "C2",
+      "desc": "Kartodromo"
+    }
+  ],
+  "locais": [
+    {
+      "idLocal": 6,
+      "idCampus": 2,
+      "desc": "PSK1"
+    },
+    {
+      "idLocal": 1,
+      "idCampus": 3,
+      "desc": "PBS11"
+    },
+    {
+      "idLocal": 2,
+      "idCampus": 3,
+      "desc": "ESP1"
+    },
+    {
+      "idLocal": 3,
+      "idCampus": 3,
+      "desc": "ESP2"
+    },
+    {
+      "idLocal": 4,
+      "idCampus": 1,
+      "desc": "TPF37"
+    },
+    {
+      "idLocal": 5,
+      "idCampus": 1,
+      "desc": "TPF32"
+    }
+  ]
+}
