@@ -8,7 +8,7 @@ from openpyxl.utils import get_column_letter
 def retorna_horarios(col,horario):
     
     return horario.idHora if col == 1 else horario.hora
-
+    
 # https://medium.com/data-hackers/como-manipular-planilhas-excel-com-o-python-6be8799f8dd7
 
 class Campus(BaseModel):
@@ -32,6 +32,7 @@ class Data(BaseModel):
     horarios: List[Horarios]
 
 # comando para rodar : uvicorn main:app --reload
+
 app = FastAPI()
 
 @app.get("/")
@@ -76,16 +77,38 @@ async def gera_qts(data: Data):
     ws1['A2'] = 'Horário de início'
     ws1['B2'] = 'Tempo'
 
-
     # Imprimir todos os dias da semana
     countDays = 0
-    for colDay in range(3,10):
+    for colDay in range(3,31,4):
+        
         weekday = days_of_week[countDays].weekday()
+        
         letterDay = get_column_letter(colDay)
+        
         ws1[letterDay + '1'] = days_of_week[countDays].strftime('%d/%m')+' '+name_days_week[weekday]
-        countDays += 1
+        
+        # Juntando celulas dos dias para ocupar 4 colunas
 
-    #Escreve alguns dados
+        mergeDay = letterDay + '1:' + get_column_letter(colDay + 3) + '1'
+        ws1.merge_cells(mergeDay)
+
+        # Criando titulo abaixo dos dias
+
+        ws1[letterDay + '2'] = "Campus"
+        ws1[get_column_letter(colDay + 1) + '2'] = "Local"
+        ws1[get_column_letter(colDay + 2) + '2'] = "Turma"
+        ws1[get_column_letter(colDay + 3) + '2'] = "Aula"
+
+        countDays += 1
+    
+    # Imprimindo ultima coluna
+
+    colEad = get_column_letter(31)
+
+    ws1[colEad+'1'] = 'LIVRE'
+    ws1[colEad+'2'] = 'EAD'
+
+    # Imprimindo os horarios
     for col in range(1,3):
         for row in range(0,(qtdHorarios)):
             letter = get_column_letter(col)
@@ -94,9 +117,6 @@ async def gera_qts(data: Data):
     # Salva arquivo (Se não colocar o caminho complete, ele salva
     # na mesma pasta do scritp.
 
-    # Escreva os valores do array na planilha do Excel
-   # for row in dados:
-       # sheet.append(row)
     wb.save('QTS_'+year+'.xlsx')
 
     return data
