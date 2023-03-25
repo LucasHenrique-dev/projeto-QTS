@@ -1,5 +1,5 @@
 - Plano de Aulas:
-  - Descritvo de todas as aulas de uma disciplina para uma turma;
+  - Descritvo de todas as aulas de uma disciplina para um núcleo;
   - Aulas numeradas pelo ID;
   - Quantitativo de professores para a aula;
   - Recursos materiais necessários para ministrar a aula;
@@ -18,6 +18,7 @@
 
 - Informações Gerais:
   - Vários cursos simultâneos;
+  - Cada núcelo possui "n" turmas. Ex.: Núcleo Alfa possui turmas Alfa 1, Alfa 2...;
   - Cada curso possui suas disciplinas e cada disciplina possui aulas, descritas no Plano de Aulas;
   - Vários Campus disponíveis;
   - Campus possuem vários locais;
