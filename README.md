@@ -1,12 +1,14 @@
 # 🤖📅 Gerador de Quadro de Trabalho Semanal
 
-[Tecnologias usadas]
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=Google%20Colab&logoColor=white)
 
 ## ℹ Tabela de Conteúdos
 - [Descrição do Projeto](#dart-projeto-da-cadeira-de-inteligência-artificial-20222)
 - [Especificações](#-especificações-do-projeto)
 - [Quadro Lean-Canvas](lean-canvas)
 - [Descrição do Sistema](detalhamento-sistema.txt)
+- [Referências](referencias)
 
 ## :dart: Projeto da Cadeira de Inteligência Artificial 2022.2
 
@@ -22,9 +24,6 @@ O projeto se propõe a criar, usando algoritmos de IA, um gerador de Quadro de T
 
 Especificações incluem:
 - Requistos Funcionais
-- Casos de Uso
-- Diagrama de Sequência
-- Diagrama de Classe
 
 Visualize as especificações do projeto: [Especificações Gerador de QTS](analises/especificacoes/requisitos.md)
 
