@@ -7,7 +7,7 @@
 - [Descrição do Projeto](#dart-projeto-da-cadeira-de-inteligência-artificial-20222)
 - [Especificações](#-especificações-do-projeto)
 - [Quadro Lean-Canvas](lean-canvas)
-- [Descrição do Sistema](detalhamento-sistema.txt)
+- [Descrição do Sistema](detalhamento-sistema.md)
 - [Referências](referencias)
 
 ## :dart: Projeto da Cadeira de Inteligência Artificial 2022.2
