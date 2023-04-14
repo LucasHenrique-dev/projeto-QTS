@@ -22,10 +22,9 @@ O projeto se propõe a criar, usando algoritmos de IA, um gerador de Quadro de T
 
 ## 📃 Especificações do Projeto
 
-Especificações incluem:
-- Requistos Funcionais
+O projeto foi desenvolvido na linguagem Python utilizando o ambiente de desenvolvimento do [Goolge Colaboratory](https://colab.research.google.com/)
 
-Visualize as especificações do projeto: [Especificações Gerador de QTS](analises/especificacoes/requisitos.md)
+Visualize os scripts desenvolvidos para o projeto: [Desenvolvimento do Gerador de QTS](desenvolvimento)
 
 ## 📝 Licença
 
