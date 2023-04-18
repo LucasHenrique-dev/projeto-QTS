@@ -1,135 +1,50 @@
 {
-  "campus": [
-    {
-      "idCampus": "C3",
-      "desc": "CENTRO DE EVENTOS"
+  "horario": {
+    "horario_inicio": "7:00",
+    "horario_fim": "18:00",
+    "almoco": {
+      "inicio": "12:00",
+      "fim": "13:00"
     },
-    {
-      "idCampus":"C1",
-      "desc": "UNIPRF"
-    },
-    {
-      "idCampus": "C2",
-      "desc": "Kartodromo"
-    }
-  ],
-  "locais": [
-    {
-      "idLocal": 6,
-      "idCampus": 2,
-      "desc": "PSK1"
-    },
-    {
-      "idLocal": 1,
-      "idCampus": 3,
-      "desc": "PBS11"
-    },
-    {
-      "idLocal": 2,
-      "idCampus": 3,
-      "desc": "ESP1"
-    },
-    {
-      "idLocal": 3,
-      "idCampus": 3,
-      "desc": "ESP2"
-    },
-    {
-      "idLocal": 4,
-      "idCampus": 1,
-      "desc": "TPF37"
-    },
-    {
-      "idLocal": 5,
-      "idCampus": 1,
-      "desc": "TPF32"
-    }
-  ],
-  "horarios": [
-    {
-      "idHora": "T0",
-      "hora": "05:20",
-      "ordem": 1
-    },
-    {
-      "idHora": "T1",
-      "hora": "06:20",
-      "ordem": 2
-    },
-    {
-      "idHora": "T2",
-      "hora": "07:30",
-      "ordem": 3
-    },
-    {
-      "idHora": "T3",
-      "hora": "08:40",
-      "ordem": 4
-    },
-    {
-      "idHora": "T4",
-      "hora": "09:50",
-      "ordem": 5
-    },
-    {
-      "idHora": "T5",
-      "hora": "11:00",
-      "ordem": 6
-    },
-    {
-      "idHora": "T6",
-      "hora": "12:10",
-      "ordem": 7
-    },
-    {
-      "idHora": "T7",
-      "hora": "13:20",
-      "ordem": 8
-    },
-    {
-      "idHora": "T8",
-      "hora": "14:30",
-      "ordem": 9
-    },
-    {
-      "idHora": "T9",
-      "hora": "15:40",
-      "ordem": 10
-    },
-    {
-      "idHora": "T10",
-      "hora": "16:50",
-      "ordem": 11
-    },
-    {
-      "idHora": "T11",
-      "hora": "18:00",
-      "ordem": 12
-    },
-    {
-      "idHora": "T12",
-      "hora": "19:10",
-      "ordem": 13
-    },
-    {
-      "idHora": "T13",
-      "hora": "20:20",
-      "ordem": 14
-    },
-    {
-      "idHora": "T14",
-      "hora": "21:30",
-      "ordem": 15
-    },
-    {
-      "idHora": "T15",
-      "hora": "22:40",
-      "ordem": 16
-    },
-    {
-      "idHora": "T16",
-      "hora": "23:50",
-      "ordem": 17
-    }
-  ]
+    "duracao_hora_aula": 1,
+    "intervalo_minutos_entre_aulas": 10,
+    "dias_semana": [
+      "Segunda",
+      "Terça",
+      "Quarta",
+      "Quinta",
+      "Sexta"
+    ]
+  },
+  "curso": {
+    "quantidade_turmas": 5,
+    "maximo_aulas_dia": 2,
+    "disciplinas": [
+      {
+        "nome": "Sistemas Operacionais",
+        "restrição_horario": "livre",
+        "sigla": "SO"
+      },
+      {
+        "nome": "Métodos Formais",
+        "restrição_horario": "livre",
+        "sigla": "MF"
+      },
+      {
+        "nome": "Organização de Computadores",
+        "restrição_horario": "livre",
+        "sigla": "OC"
+      },
+      {
+        "nome": "Compiladores",
+        "restrição_horario": "livre",
+        "sigla": "CO"
+      },
+      {
+        "nome": "Inteligência Artificial",
+        "restrição_horario": "07:00 - 12:00",
+        "sigla": "IA"
+      }
+    ]
+  }
 }
